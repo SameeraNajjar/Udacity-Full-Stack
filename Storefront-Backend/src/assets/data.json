@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Book",
+    "price": 9.99,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "description": "You can read it!"
+  },
+  {
+    "id": 2,
+    "name": "Headphones",
+    "price": 249.99,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "description": "Listen to stuff!"
+  },
+  {
+    "id": 3,
+    "name": "Backpack",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1502786129293-79981df4e689?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "description": "Carry things around town!"
+  },
+  {
+    "id": 4,
+    "name": "Glasses",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "description": "Now you can see!"
+  },
+  {
+    "id": 5,
+    "name": "Cup",
+    "price": 4.99,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "description": "Drink anything with it!"
+  },
+  {
+    "id": 6,
+    "name": "Shirt",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "description": "Wear it with style!"
+  }
+]

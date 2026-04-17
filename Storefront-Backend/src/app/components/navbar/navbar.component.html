@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" routerLink="/">MyStore</a>
+
+    <div class="navbar-nav ms-auto">
+      <a class="nav-link" routerLink="/cart" routerLinkActive="active">
+        <i class="bi bi-cart3"></i> Cart
+        <span class="badge bg-light text-dark ms-1" *ngIf="cartCount > 0">
+          {{ cartCount }}
+        </span>
+      </a>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,120 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css');
+
+:root {
+  --brand: #0d6efd;
+  --muted: #6c757d;
+  --card-radius: 12px;
+}
+
+body {
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #212529;
+  padding-top: 76px;
+  min-height: 100vh;
+}
+
+/* Container */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Product Card */
+.product-card {
+  border: 0;
+  border-radius: var(--card-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.product-thumb {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: var(--card-radius);
+  border-top-right-radius: var(--card-radius);
+}
+
+/* Cart Product Image */
+.cart-product-image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Price */
+.price {
+  font-weight: 700;
+  color: var(--brand);
+  font-size: 1.1rem;
+}
+
+/* Success Icon */
+.success-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+}
+
+/* Form Validation */
+.ng-invalid.ng-touched:not(form) {
+  border-color: #dc3545;
+}
+
+.ng-valid.ng-touched:not(form) {
+  border-color: #198754;
+}
+
+/* Loading Spinner */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .product-thumb {
+    height: 160px;
+  }
+
+  .app-container {
+    padding: 1rem;
+  }
+
+  body {
+    padding-top: 66px;
+  }
+}
+
+/* Utility Classes */
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
