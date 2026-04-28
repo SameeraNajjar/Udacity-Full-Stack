@@ -5,6 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
     "build": "tsc",
     "watch": "tsc-watch --esModuleInterop src/server.ts --outDir ./dist --onSuccess \"node ./dist/server.js\"",
     "migrate": "db-migrate up -e dev",
