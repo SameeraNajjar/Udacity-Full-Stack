@@ -50,7 +50,8 @@ JWT_EXPIRES_IN=1h
 
  **Note**: `.env` is included in `.gitignore`, so it won’t be pushed to GitHub.  
 For the reviewer, the variables are documented here for project setup.
-
+If using Docker, set DB_HOST=postgres  
+If running locally, set DB_HOST=localhost
 ---
 
 ## Database Setup
