@@ -63,6 +63,7 @@ The project uses **Postgres** running inside Docker.
    ```bash
    docker-compose up -d
    ```
+docker exec -it storefront-backend-postgres-1 psql -U postgres -c "CREATE DATABASE storefront_test;"
 
 2. Create the dev and test databases:
 

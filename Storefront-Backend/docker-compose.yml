@@ -13,7 +13,7 @@ services:
     working_dir: /app
     volumes:
       - ./:/app
-    command: tail -f /dev/null
+    command: npm start
     depends_on:
       - postgres
 

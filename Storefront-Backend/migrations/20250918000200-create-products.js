@@ -4,6 +4,10 @@ exports.up = function (db, callback) {
     db.createTable('products', {
         id: { type: 'int', primaryKey: true, autoIncrement: true },
         name: { type: 'string', length: 255, notNull: true },
+
+        // add this line
+        category: { type: 'string', length: 100 },
+
         description: { type: 'text' },
         price: { type: 'numeric', notNull: true },
         sku: { type: 'string', length: 100 },
